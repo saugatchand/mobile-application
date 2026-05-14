@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f4f8;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input {
+            width: 90%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 95%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #4CAF50;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        #result {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background: #e8f5e9;
+            color: #2e7d32;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Student Result</h2>
+
+    <div class="box">
+
+        <input id="m1" placeholder="Subject 1">
+        <input id="m2" placeholder="Subject 2">
+        <input id="m3" placeholder="Subject 3">
+        <input id="m4" placeholder="Subject 4">
+        <input id="m5" placeholder="Subject 5">
+        <input id="m6" placeholder="Subject 6">
+        <input id="m7" placeholder="Subject 7">
+        <input id="m8" placeholder="Subject 8">
+
+        <button onclick="checkResult()">Submit</button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
